@@ -4,7 +4,10 @@ FROM python:3.10
 WORKDIR /app
 
 # Install system dependencies
-RUN apt-get update -y && apt-get install -y libgl1-mesa-glx
+RUN apt-get update -y && apt-get install -y \
+    libgl1 \
+    libglib2.0-0
+
 
 # Copy requirement file
 COPY requirements.txt .
