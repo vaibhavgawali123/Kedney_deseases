@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.h5
+*.pkl
+.env
+venv/
+.git/
