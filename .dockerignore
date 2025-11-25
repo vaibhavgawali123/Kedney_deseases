@@ -3,7 +3,6 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
-*.h5
 *.pkl
 .env
 venv/
